@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./recomended.js"></script>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>HANGMAN</h1>
+        <h2>80s style</h2>
+    </div>
+    <div class="container">
+        <div class="image"><img src="./img/hangman-boardgame.jpg" alt=""></div>
+
+        <div class="gamesection">
+            <p>Press any key to get started!</p>
+            <div>
+                <h3>WINS</h3>
+                <div id="wins">0</div>
+            </div>
+            <div>
+                <h3>Current Word</h3>
+                <div id="privateword">-------</div>
+            </div>
+            <div>
+                <h3>Number of Guesses Remaining</h3>
+                <div id="numofchanses">0</div>
+            </div>
+            <div>
+                <h3>Letters Already Guessed</h3>
+                <div id="listfofchoosenletters"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
